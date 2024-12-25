@@ -18,7 +18,7 @@ var S = {
       if (i !== -1) {
         S.UI.simulate(decodeURI(action).substring(i + 3));
       } else {
-        S.UI.simulate('#countdown 3|祝|刘怡|新年快乐|愿你|新的一年|顺风顺水|扶摇直上|百事无忌|平安喜乐|万事胜意|前程似锦|天天开心|2025年快乐');
+        S.UI.simulate('#countdown 3|祝|余雯雯|新年快乐|愿你|新的一年|顺风顺水|扶摇直上|百事无忌|平安喜乐|万事胜意|前程似锦|天天开心|2025年快乐');
       }
  
       // 开始绘图循环
@@ -192,7 +192,7 @@ S.UI = (function () {
       } else {
         // 显示普通文字
         S.Shape.switchShape(S.ShapeBuilder.letter(current));
-        setTimeout(showNextText, 1500);
+        setTimeout(showNextText, 3000);
       }
     }
  
